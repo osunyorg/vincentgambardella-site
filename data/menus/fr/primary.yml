@@ -1,7 +1,7 @@
 ---
 - title: Test
-  target: ''
-  kind: blank
+  target: "/actualites/"
+  kind: page
   children: []
 - title: Test 2
   target: ''
