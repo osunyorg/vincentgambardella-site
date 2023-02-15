@@ -1,2 +1,6 @@
---- []
+---
+- title: Test
+  target: ''
+  kind: blank
+  children: []
 
