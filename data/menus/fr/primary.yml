@@ -1,8 +1,4 @@
 ---
-- title: Test
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: Articles
   target: "/actualites/"
   kind: page
