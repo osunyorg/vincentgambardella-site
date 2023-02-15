@@ -3,8 +3,8 @@
   target: "/actualites/"
   kind: page
   children: []
-- title: Test 2
-  target: ''
-  kind: blank
+- title: Articles
+  target: "/actualites/"
+  kind: page
   children: []
 
