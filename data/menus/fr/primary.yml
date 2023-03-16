@@ -9,4 +9,8 @@ items:
   target: "/atelier/"
   kind: page
   children: []
+- title: Accompagnement
+  target: "/accompagnement/"
+  kind: page
+  children: []
 
