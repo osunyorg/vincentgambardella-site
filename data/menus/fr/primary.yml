@@ -13,4 +13,8 @@ items:
   target: "/atelier/"
   kind: page
   children: []
+- title: Contact
+  target: "/contact/"
+  kind: page
+  children: []
 
