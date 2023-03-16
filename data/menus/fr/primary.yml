@@ -1,16 +1,16 @@
 ---
 title: Menu principal
 items:
-- title: Articles
-  target: "/atelier/"
-  kind: page
-  children: []
 - title: Atelier Conférence
   target: "/atelier/"
   kind: page
   children: []
 - title: Accompagnement
   target: "/accompagnement/"
+  kind: page
+  children: []
+- title: Articles
+  target: "/atelier/"
   kind: page
   children: []
 
