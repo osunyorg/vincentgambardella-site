@@ -5,4 +5,8 @@ items:
   target: "/atelier/"
   kind: page
   children: []
+- title: Atelier Conférence
+  target: "/atelier/"
+  kind: page
+  children: []
 
