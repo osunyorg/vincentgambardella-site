@@ -1,8 +1,4 @@
 ---
 title: Menu principal
-items:
-- title: Articles
-  target: "/actualites/"
-  kind: page
-  children: []
+items: []
 
