@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Atelier-Conférence
-  target: "/atelier/"
+  target: "/ateliers/"
   kind: page
   children: []
 - title: Accompagnement
@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Articles
-  target: "/atelier/"
+  target: "/ateliers/"
   kind: page
   children: []
 - title: Contact
