@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Articles
-  target: "/ateliers/"
+  target: "/articles/"
   kind: page
   children: []
 - title: Contact
