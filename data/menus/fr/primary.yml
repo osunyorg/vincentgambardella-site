@@ -5,7 +5,7 @@ items:
   target: "/ateliers/"
   kind: page
   children: []
-- title: Accompagnement
+- title: Accompagnements
   target: "/accompagnement/"
   kind: page
   children: []
