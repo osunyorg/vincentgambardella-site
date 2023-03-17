@@ -17,4 +17,8 @@ items:
   target: "/contact/"
   kind: page
   children: []
+- title: Bio
+  target: "/"
+  kind: page
+  children: []
 
