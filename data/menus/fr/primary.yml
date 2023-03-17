@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Bio
+  target: "/"
+  kind: page
+  children: []
 - title: Ateliers-Conférences
   target: "/ateliers/"
   kind: page
@@ -15,10 +19,6 @@ items:
   children: []
 - title: Contact
   target: "/contact/"
-  kind: page
-  children: []
-- title: Bio
-  target: "/"
   kind: page
   children: []
 
