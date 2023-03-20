@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Accompagnements
-  target: "/accompagnement/"
+  target: "/accompagnements/"
   kind: page
   children: []
 - title: Articles
