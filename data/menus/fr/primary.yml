@@ -1,6 +1,24 @@
 ---
+title: Menu principal
+items:
+- title: Bio
+  target: "/"
+  kind: page
+  children: []
+- title: Ateliers-Conférences
+  target: "/ateliers/"
+  kind: page
+  children: []
+- title: Accompagnements
+  target: "/accompagnements/"
+  kind: page
+  children: []
 - title: Articles
-  target: "/actualites/"
+  target: "/articles/"
+  kind: page
+  children: []
+- title: Contact
+  target: "/contact/"
   kind: page
   children: []
 
