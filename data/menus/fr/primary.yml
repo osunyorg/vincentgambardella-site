@@ -21,4 +21,8 @@ items:
   target: "/contact/"
   kind: page
   children: []
+- title: Linkedin
+  target: https://www.linkedin.com/in/vincent-gambardella-/
+  kind: url
+  children: []
 
