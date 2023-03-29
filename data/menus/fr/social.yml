@@ -1,4 +1,8 @@
 ---
 title: Liens sociaux
-items: []
+items:
+- title: Linkedin
+  target: https://www.linkedin.com/feed/
+  kind: url
+  children: []
 
