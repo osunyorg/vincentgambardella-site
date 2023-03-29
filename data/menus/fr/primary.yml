@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Qui je suis?
+- title: Qui suis-je ?
   target: "/"
   kind: page
   children: []
