@@ -13,12 +13,12 @@ items:
   target: "/accompagnements/"
   kind: page
   children: []
-- title: Articles
-  target: "/articles/"
-  kind: page
-  children: []
 - title: Contact
   target: "/contact/"
+  kind: page
+  children: []
+- title: Articles
+  target: "/articles/"
   kind: page
   children: []
 - title: Linkedin
