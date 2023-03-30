@@ -5,7 +5,7 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Ateliers
+- title: Ateliers & Conférences
   target: "/ateliers-conferences/"
   kind: page
   children: []
