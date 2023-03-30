@@ -5,8 +5,8 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Articles
-  target: "/articles-ok/"
+- title: Ateliers
+  target: "/ateliers/"
   kind: page
   children: []
 - title: Accompagnements
