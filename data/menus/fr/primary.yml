@@ -6,7 +6,7 @@ items:
   kind: page
   children: []
 - title: Ateliers & Conférences
-  target: "/ateliers/"
+  target: "/articles-ok/"
   kind: page
   children: []
 - title: Accompagnements
