@@ -18,7 +18,7 @@ items:
   kind: page
   children: []
 - title: Articles
-  target: "/ateliers/"
+  target: "/articles-ok/"
   kind: page
   children: []
 - title: Linkedin
