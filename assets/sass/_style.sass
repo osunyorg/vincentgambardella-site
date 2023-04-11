@@ -22,7 +22,7 @@
         > li
             > a
                 letter-spacing: 1.2px
-                font-size: 13px
+                font-size: 14px
                 font-weight: 400
                 transition: none
                 &.active
@@ -37,13 +37,11 @@
 
 //design-system / typography.sass
 .lead
-    color: #155955
-    font-style: italic
+    color: #b74153//#155955
 figcaption a, a
     color: #3d9691
     &:hover, &:active
         color: #000
-
 
 //_utils.sass
 .block-summary
@@ -57,8 +55,6 @@ figcaption a, a
         .chapter
             align-items: start
             margin-top: 2rem
-            .text
-                margin-top: 20px
 
 //design-system / footer.sass
 footer#document-footer
@@ -73,14 +69,16 @@ footer#document-footer
             &-site, &-logo 
                 display: none
             &-legals, &-social
-                font-size: 13px
+                font-size: 14px
                 .footer-credit
                     font-size: 11px
                     font-style: italic
                     margin-top: 1rem
+                    a 
+                        font-size: 11px
                 a
                     letter-spacing: 1.1px
-                    font-size: 12px
+                    font-size: 13px
                     font-weight: 400
                     transition: none
                     &:hover
@@ -102,7 +100,14 @@ footer#document-footer
 .block
     padding-top: 2rem
     padding-bottom: 2rem
+    @include in-page-without-sidebar
+        h2
+            color : #b74153
+            font-weight: bold
 
-//design-system / layout.sass
-
+//blocks / key_figures.sass
+.block-key_figures 
+    dl 
+        dt
+            color: #155955
 
