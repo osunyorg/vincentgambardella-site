@@ -65,6 +65,13 @@ figcaption a, a
         .chapter
             align-items: start
             margin-top: 2rem
+            .text
+                width: 100%
+    @include media-breakpoint-up(desktop)
+        @include in-page-without-sidebar
+            .chapter
+                .text
+                    width: 100%
 
 //design-system / footer.sass
 footer#document-footer
