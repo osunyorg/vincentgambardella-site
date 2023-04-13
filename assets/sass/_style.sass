@@ -103,8 +103,18 @@ footer#document-footer
         &.is-long p, p
             font-size: 20px
             line-height: 30px
-.block-testimonials 
     padding-bottom: 2rem
+    .avatar
+        width: 150px
+        min-width: 150px
+    @include media-breakpoint-up(desktop)
+        @include in-page-without-sidebar
+            figure
+                &.with-picture
+                    figcaption
+                        .avatar
+                            width: 150px
+
 
 //blocks / base.sass
 .block
