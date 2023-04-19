@@ -140,3 +140,24 @@ footer#document-footer
         dt
             color: #155955
 
+//sections / posts.sass
+.post
+    .post-content
+        padding-left: 15px;
+        border-left: #7c7c7c 3px solid;
+    h2
+        letter-spacing: 2px
+        padding-bottom: 1rem
+        a
+            color: #b74153
+    @include media-breakpoint-up(desktop)
+    h2
+        font-size: 18px
+    p
+        font-size: 15px
+    .post-meta time
+        letter-spacing: 1px
+        text-transform: uppercase
+    .media
+        img
+            width: 100%
