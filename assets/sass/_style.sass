@@ -7,6 +7,16 @@ header#document-header
     nav
         padding-bottom: 0px
         padding-top: 0px
+        .nav-level-1
+            li:last-of-type
+                a:before
+                    background-image: url('/assets/images/linkedin.png')
+                    height: 15px
+                    width: 15px
+                    content: ""
+                    display: inline-block
+                    background-size: contain
+                    margin-right: 4px
 
 //design-system / hero.sass
 .hero
@@ -103,7 +113,7 @@ footer#document-footer
                     transition: none
                     &:hover
                         color: #ffffff//#155955
-                        border-bottom: 2px solid #155955
+                        border-bottom: 2px solid #ffffff
                         text-decoration: none
                         transition: none
 
@@ -150,6 +160,9 @@ footer#document-footer
         padding-bottom: 1rem
         a
             color: #b74153
+            &:hover
+                text-decoration: underline
+                color: #000000
     @include media-breakpoint-up(desktop)
     h2
         font-size: 18px
