@@ -107,8 +107,9 @@ figcaption a, a
         .image-portrait
             max-width: 250px
             text-align: center
-    section
-        &:not(#block-2)
+section
+    &:not(#block-2, #block-1)
+        @include in-page-without-sidebar
             .chapter
                 flex-direction: row-reverse
                 .image-square
@@ -176,6 +177,7 @@ footer#document-footer
         h2
             color : #3d9691
             font-weight: bold
+            font-size: 30px
 
 //blocks / key_figures.sass
 .block-key_figures 
