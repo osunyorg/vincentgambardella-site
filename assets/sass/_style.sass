@@ -28,6 +28,10 @@ header#document-header
                     background-color: #ffffff
                 a:after
                     content: ''
+        button[type="button"]
+            @include media-breakpoint-down(sm)
+                color: #fff
+                margin: auto
 
 
 //design-system / hero.sass
@@ -107,15 +111,20 @@ figcaption a, a
         .image-portrait
             max-width: 250px
             text-align: center
+        @include media-breakpoint-down(sm)
+            .image-portrait
+                margin: auto
+                margin-bottom: 20px
 section
     &:not(#block-2, #block-1)
-        @include in-page-without-sidebar
-            .chapter
-                flex-direction: row-reverse
-                .image-square
-                    margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
-                    margin-left: 0px
-                    text-align: left
+        @include media-breakpoint-up(desktop)
+            @include in-page-without-sidebar
+                .chapter
+                    flex-direction: row-reverse
+                    .image-square
+                        margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
+                        margin-left: 0px
+                        text-align: left
     /*#block-6
         .chapter
             text-align: right*/
@@ -153,10 +162,15 @@ footer#document-footer
 
 //blocks / testimonials.sass
 .block-testimonials 
-    blockquote
-        &.is-long p, p
-            font-size: 20px
-            line-height: 30px
+    @include media-breakpoint-down(sm)
+        blockquote
+            &.is-long p, p
+                font-size: 16px
+                line-height: 25px
+                text-align: center
+        .avatar
+            width: 100px
+            min-width: 100px
     padding-bottom: 2rem
     .avatar
         width: 150px
@@ -168,6 +182,19 @@ footer#document-footer
                     figcaption
                         .avatar
                             width: 150px
+    @include media-breakpoint-down(sm)
+        @include in-page-without-sidebar
+            figure
+                &.with-picture
+                    figcaption
+                        display: block
+                        .avatar
+                            width: 80px
+                            min-width: 80px
+                            margin: auto
+                        p
+                            text-align: center
+                            margin-top: 10px
 
 //blocks / base.sass
 .block
@@ -178,6 +205,8 @@ footer#document-footer
             color : #3d9691
             font-weight: bold
             font-size: 30px
+            @include media-breakpoint-down(sm)
+                font-size: 25px
 
 //blocks / key_figures.sass
 .block-key_figures 
