@@ -107,17 +107,17 @@ figcaption a, a
         .image-portrait
             max-width: 250px
             text-align: center
-    #block-5
+    section
+        &:not(#block-2)
+            .chapter
+                flex-direction: row-reverse
+                .image-square
+                    margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
+                    margin-left: 0px
+                    text-align: left
+    /*#block-6
         .chapter
-            flex-direction: row-reverse
-            .image-square
-                margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
-                margin-left: 0px
-                text-align: left
-
-    #block-6
-        .chapter
-            text-align: right
+            text-align: right*/
 
 //design-system / footer.sass
 footer#document-footer
@@ -174,7 +174,7 @@ footer#document-footer
     padding-bottom: 2rem
     @include in-page-without-sidebar
         h2
-            color : #b74153
+            color : #3d9691
             font-weight: bold
 
 //blocks / key_figures.sass
