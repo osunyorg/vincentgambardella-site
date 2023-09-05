@@ -13,10 +13,6 @@ items:
   target: "/accompagnements/"
   kind: page
   children: []
-- title: Audiovisuel
-  target: "/audiovisuel/"
-  kind: page
-  children: []
 - title: Articles
   target: "/articles/"
   kind: page
