@@ -9,5 +9,5 @@ external_domains:
   - "img.youtube.com"
   - "youtu.be"
   - "*.jotform.com"
-  - "airtable.com"
+  - "*.jotfor.ms"
 social:
