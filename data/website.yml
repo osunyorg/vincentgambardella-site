@@ -10,4 +10,5 @@ external_domains:
   - "youtu.be"
   - "*.jotform.com"
   - "*.jotfor.ms"
+  - "*.airtable.com"
 social:
