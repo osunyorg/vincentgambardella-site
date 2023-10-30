@@ -8,7 +8,6 @@ external_domains:
   - "www.youtube.com"
   - "img.youtube.com"
   - "youtu.be"
-  - "*.jotform.com"
-  - "*.jotfor.ms"
   - "*.airtable.com"
+  - "airtable.com"
 social:
