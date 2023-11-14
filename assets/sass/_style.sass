@@ -36,11 +36,11 @@ header#document-header
 
 //design-system / hero.sass
 .hero
-    min-height: auto;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    min-height: auto
+    padding-bottom: 2rem
+    margin-bottom: 2rem
     .content
-        padding-top: 2rem;
+        padding-top: 2rem
         > h1
             margin-top: $spacing1
             margin-bottom: $spacing1
@@ -96,17 +96,16 @@ figcaption a, a
                 p
                     font-size: 14px
                     letter-spacing: 1.5px
-.block-chapter--with-image.block-with-title:nth-child(odd)
-    @include media-breakpoint-up(desktop)
-        @include in-page-without-sidebar
-            .container
-                .block-content
-                    .chapter
-                        flex-direction: row-reverse
-                        .image-square
-                            margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
-                            margin-left: 0px
-                            text-align: left
+.block-chapter--with-image.block-titled:nth-child(odd)
+    @include in-page-without-sidebar
+        .container
+            .block-content
+                .chapter
+                    flex-direction: row-reverse
+                    .image-square
+                        margin-right: calc( (100% + 4rem) / 12 * 1 + 4rem)
+                        margin-left: 0px
+                        text-align: left
 
 //design-system / footer.sass
 footer#document-footer
@@ -180,8 +179,8 @@ footer#document-footer
     padding-top: 2rem
     padding-bottom: 2rem
     @include in-page-without-sidebar
-        h2
-            color : #3d9691
+        .block-title
+            color: #3d9691
             font-weight: bold
             font-size: 30px
             @include media-breakpoint-down(sm)
@@ -196,8 +195,8 @@ footer#document-footer
 //sections / posts.sass
 .post
     .post-content
-        padding-left: 15px;
-        border-left: #7c7c7c 3px solid;
+        padding-left: 15px
+        border-left: #7c7c7c 3px solid
     h2
         letter-spacing: 2px
         padding-bottom: 1rem
