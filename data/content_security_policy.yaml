@@ -9,5 +9,4 @@ allowed_domains:
   - "www.youtube.com"
   - "img.youtube.com"
   - "youtu.be"
-  - "static.airtable.com"
   - "airtable.com"
