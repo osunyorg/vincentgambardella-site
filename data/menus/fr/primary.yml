@@ -25,4 +25,8 @@ items:
   target: https://www.linkedin.com/in/vincent-gambardella-/
   kind: url
   children: []
+- title: Digital Detox
+  target: "/digital-detox/"
+  kind: page
+  children: []
 
