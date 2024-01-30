@@ -9,7 +9,7 @@ items:
   target: "/ateliers-conferences/"
   kind: page
   children: []
-- title: Accompagnements
+- title: Formations
   target: "/formations/"
   kind: page
   children: []
