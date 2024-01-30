@@ -13,7 +13,7 @@ items:
   target: "/formations/"
   kind: page
   children: []
-- title: Digital Detox
+- title: Digital detox
   target: "/digital-detox/"
   kind: page
   children: []
