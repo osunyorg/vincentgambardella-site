@@ -1,14 +1,14 @@
 ---
 title: Menu principal
 items:
+- title: Digital Detox
+  target: "/digital-detox/"
+  kind: page
+  children: []
 - title: Qui suis-je ?
   target: "/"
   kind: page
-  children:
-  - title: Digital Detox
-    target: "/digital-detox/"
-    kind: page
-    children: []
+  children: []
 - title: Formations
   target: "/formations/"
   kind: page
