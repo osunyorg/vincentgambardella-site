@@ -9,6 +9,10 @@ items:
   target: "/formations/"
   kind: page
   children: []
+- title: Préparation mentale
+  target: "/"
+  kind: page
+  children: []
 - title: Digital Detox
   target: "/digital-detox/"
   kind: page
@@ -24,9 +28,5 @@ items:
 - title: LinkedIn
   target: https://www.linkedin.com/in/vincent-gambardella-/
   kind: url
-  children: []
-- title: Préparation mentale
-  target: "/"
-  kind: page
   children: []
 
