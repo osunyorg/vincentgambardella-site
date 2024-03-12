@@ -10,7 +10,7 @@ items:
   kind: page
   children: []
 - title: Préparation mentale
-  target: "/"
+  target: "/preparation-mentale/"
   kind: page
   children: []
 - title: Digital Detox
