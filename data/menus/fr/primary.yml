@@ -9,10 +9,6 @@ items:
   target: "/formations/"
   kind: page
   children: []
-- title: Préparation mentale
-  target: "/preparation-mentale/"
-  kind: page
-  children: []
 - title: Digital Detox
   target: "/digital-detox/"
   kind: page
