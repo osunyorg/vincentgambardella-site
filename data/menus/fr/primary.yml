@@ -5,12 +5,12 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Formations
-  target: "/formations/"
-  kind: page
-  children: []
 - title: Preparation mentale
   target: "/preparation-mentale/"
+  kind: page
+  children: []
+- title: Formations
+  target: "/formations/"
   kind: page
   children: []
 - title: Digital Detox
