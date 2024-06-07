@@ -9,7 +9,7 @@ items:
   target: "/formations/"
   kind: page
   children: []
-- title: Preparation mentale
+- title: La préparation mentale
   target: "/preparation-mentale/"
   kind: page
   children: []
