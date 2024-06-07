@@ -5,7 +5,7 @@ items:
   target: "/"
   kind: page
   children: []
-- title: Formations
+- title: Formation
   target: "/formations/"
   kind: page
   children: []
