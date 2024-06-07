@@ -11,7 +11,7 @@ fr:
   permalinks:
     posts: /articles/:year-:month-:day-:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/articles/
   taxonomies:
     administrator: administrators
