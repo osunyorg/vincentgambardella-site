@@ -10,6 +10,7 @@ fr:
     social:
   permalinks:
     posts: /articles/:year-:month-:day-:slug/
+    posts_categories: /articles/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/articles/
