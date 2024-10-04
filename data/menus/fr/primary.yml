@@ -17,7 +17,7 @@ items:
   target: "/articles/"
   kind: page
   children: []
-- title: Qui suis-je ?
+- title: Infos
   target: "/infos/"
   kind: page
   children: []
