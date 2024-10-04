@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Qui suis-je ?
-  target: "/"
-  kind: page
-  children: []
 - title: Formations
   target: "/formations/"
   kind: page
