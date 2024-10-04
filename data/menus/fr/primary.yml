@@ -17,6 +17,10 @@ items:
   target: "/articles/"
   kind: page
   children: []
+- title: Qui suis-je ?
+  target: "/qui/"
+  kind: page
+  children: []
 - title: Contact
   target: "/contact/"
   kind: page
