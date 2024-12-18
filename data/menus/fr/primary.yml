@@ -4,41 +4,48 @@ items:
 - title: Formations
   target: "/formations/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
 - title: Préparation mentale
   target: "/preparation-mentale/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/preparation-mentale"
   file: content/fr/pages/preparation-mentale/_index.html
 - title: Digital Detox
   target: "/digital-detox/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/digital-detox"
   file: content/fr/pages/digital-detox/_index.html
 - title: Articles
   target: "/articles/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Infos
   target: "/infos/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/infos"
   file: content/fr/pages/infos/_index.html
 - title: Contact
   target: "/contact/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: LinkedIn
   target: https://www.linkedin.com/in/vincent-gambardella-formateur/
   kind: url
+  new_tab: true
   children: []
 
