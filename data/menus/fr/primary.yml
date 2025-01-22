@@ -15,13 +15,6 @@ items:
   children: []
   path: "/pages/preparation-mentale"
   file: content/fr/pages/preparation-mentale/_index.html
-- title: Digital Detox
-  target: "/digital-detox/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/digital-detox"
-  file: content/fr/pages/digital-detox/_index.html
 - title: Articles
   target: "/articles/"
   kind: page
