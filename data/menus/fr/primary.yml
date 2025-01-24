@@ -22,6 +22,11 @@ items:
   children: []
   path: "/pages/haut-niveau"
   file: content/fr/pages/haut-niveau/_index.html
+- title: Digital Detox
+  target: https://www.vincentgambardella.com/digital-detox/
+  kind: url
+  new_tab: false
+  children: []
 - title: Articles
   target: "/articles/"
   kind: page
@@ -47,10 +52,5 @@ items:
   target: https://www.linkedin.com/in/vincent-gambardella-formateur/
   kind: url
   new_tab: true
-  children: []
-- title: Digital Detox
-  target: https://www.vincentgambardella.com/digital-detox/
-  kind: url
-  new_tab: false
   children: []
 
