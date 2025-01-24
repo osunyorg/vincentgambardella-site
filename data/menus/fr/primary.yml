@@ -48,4 +48,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Digital Detox
+  target: https://www.vincentgambardella.com/digital-detox/
+  kind: url
+  new_tab: false
+  children: []
 
