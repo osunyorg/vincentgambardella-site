@@ -8,7 +8,7 @@ items:
   children: []
   path: "/pages/preparation-mentale"
   file: content/fr/pages/preparation-mentale/_index.html
-- title: Haut niveau
+- title: Yoga
   target: "/haut-niveau/"
   kind: page
   new_tab: false
