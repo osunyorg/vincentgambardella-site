@@ -8,13 +8,6 @@ items:
   children: []
   path: "/pages/preparation-mentale"
   file: content/fr/pages/preparation-mentale/_index.html
-- title: Yoga
-  target: "/haut-niveau/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/haut-niveau"
-  file: content/fr/pages/haut-niveau/_index.html
 - title: Formations
   target: "/formations/"
   kind: page
@@ -22,6 +15,13 @@ items:
   children: []
   path: "/pages/formations"
   file: content/fr/pages/formations/_index.html
+- title: Yoga
+  target: "/haut-niveau/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/haut-niveau"
+  file: content/fr/pages/haut-niveau/_index.html
 - title: Digital Detox
   target: https://www.vincentgambardella.com/digital-detox/
   kind: url
