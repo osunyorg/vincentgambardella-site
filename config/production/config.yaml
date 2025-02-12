@@ -2,6 +2,11 @@
 
 baseURL: https://www.vincentgambardella.com
 
+## OSUNY
+osuny:
+  website:
+    id: 0108343d-45b4-4ab4-8bc5-e72561f52654
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
