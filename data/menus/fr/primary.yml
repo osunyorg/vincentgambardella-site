@@ -1,13 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Yoga performance
-  target: "/yoga/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/yoga"
-  file: content/fr/pages/yoga/_index.html
 - title: Préparation mentale
   target: "/preparation-mentale/"
   kind: page
@@ -15,6 +8,13 @@ items:
   children: []
   path: "/pages/preparation-mentale"
   file: content/fr/pages/preparation-mentale/_index.html
+- title: Yoga performance
+  target: "/yoga/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/yoga"
+  file: content/fr/pages/yoga/_index.html
 - title: Formations
   target: "/formations/"
   kind: page
