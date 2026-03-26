@@ -143,40 +143,40 @@ footer#document-footer
                         transition: none
 
 //blocks / testimonials.sass
-.block-testimonials 
-    @include media-breakpoint-down(sm)
-        blockquote
-            &.is-long p, p
-                font-size: 16px
-                line-height: 25px
-                text-align: center
+.block-testimonials--carousel
+        @include media-breakpoint-down(sm)
+            blockquote
+                &.is-long p, p
+                    font-size: 16px
+                    line-height: 25px
+                    text-align: center
+            .avatar
+                width: 100px
+                min-width: 100px
+        padding-bottom: 2rem
         .avatar
-            width: 100px
-            min-width: 100px
-    padding-bottom: 2rem
-    .avatar
-        width: 150px
-        min-width: 150px
-    @include media-breakpoint-up(desktop)
-        @include in-page-without-sidebar
-            figure
-                &.with-picture
-                    figcaption
-                        .avatar
-                            width: 150px
-    @include media-breakpoint-down(sm)
-        @include in-page-without-sidebar
-            figure
-                &.with-picture
-                    figcaption
-                        display: block
-                        .avatar
-                            width: 80px
-                            min-width: 80px
-                            margin: auto
-                        p
-                            text-align: center
-                            margin-top: 10px
+            width: 150px
+            min-width: 150px
+        @include media-breakpoint-up(desktop)
+            @include in-page-without-sidebar
+                figure
+                    &.with-picture
+                        figcaption
+                            .avatar
+                                width: 150px
+        @include media-breakpoint-down(sm)
+            @include in-page-without-sidebar
+                figure
+                    &.with-picture
+                        figcaption
+                            display: block
+                            .avatar
+                                width: 80px
+                                min-width: 80px
+                                margin: auto
+                            p
+                                text-align: center
+                                margin-top: 10px
 
 //blocks / base.sass
 .block
