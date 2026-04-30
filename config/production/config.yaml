@@ -7,16 +7,11 @@ osuny:
   website:
     id: 0108343d-45b4-4ab4-8bc5-e72561f52654
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "vincentgambardella.com"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
-
-## CACHE
-deployment:
-  matchers:
-    - pattern: "^.+\\.(woff2|woff|svg|ttf|otf|eot|js|css)$"
-      cacheControl: "max-age=31536000, no-transform, public"
-      gzip: true
-    - pattern: "^.+\\.(png|jpg|jpeg|gif|webp)$"
-      cacheControl: "max-age=31536000, no-transform, public"
-      gzip: false
